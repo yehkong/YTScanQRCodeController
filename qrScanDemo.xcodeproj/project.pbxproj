@@ -12,6 +12,7 @@
 		497E40DF226879E6000925A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497E40DD226879E6000925A0 /* Main.storyboard */; };
 		497E40E1226879E8000925A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497E40E0226879E8000925A0 /* Assets.xcassets */; };
 		497E40E4226879E8000925A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497E40E2226879E8000925A0 /* LaunchScreen.storyboard */; };
+		497E40EC22687AA2000925A0 /* TTQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497E40EB22687AA2000925A0 /* TTQRViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		497E40E0226879E8000925A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		497E40E3226879E8000925A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		497E40E5226879E8000925A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497E40EB22687AA2000925A0 /* TTQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTQRViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				497E40D9226879E6000925A0 /* AppDelegate.swift */,
 				497E40DB226879E6000925A0 /* ViewController.swift */,
+				497E40EB22687AA2000925A0 /* TTQRViewController.swift */,
 				497E40DD226879E6000925A0 /* Main.storyboard */,
 				497E40E0226879E8000925A0 /* Assets.xcassets */,
 				497E40E2226879E8000925A0 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				497E40DC226879E6000925A0 /* ViewController.swift in Sources */,
+				497E40EC22687AA2000925A0 /* TTQRViewController.swift in Sources */,
 				497E40DA226879E6000925A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 68G9D2GE69;
+				DEVELOPMENT_TEAM = 3XE2P5MZFR;
 				INFOPLIST_FILE = qrScanDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 68G9D2GE69;
+				DEVELOPMENT_TEAM = 3XE2P5MZFR;
 				INFOPLIST_FILE = qrScanDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

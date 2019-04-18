@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  qrScanDemo
 //
-//  Created by andrew on 2019/4/18.
+//  Created by yetaiwen on 2019/4/18.
 //  Copyright © 2019年 yetaiwen. All rights reserved.
 //
 
